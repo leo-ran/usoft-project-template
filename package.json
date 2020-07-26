@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "usoft serve",
-    "build": "usoft build"
+    "serve": "usoft-vue serve",
+    "build": "usoft-vue build"
   },
   "dependencies": {
     "vue": "^2.6.11",
@@ -16,6 +16,20 @@
   "devDependencies": {
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
   },
   "browserslist": [
     "> 1%",
