@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "usoft serve",
-    "build": "usoft build"
+    "start": "usoft-vue serve",
+    "build": "usoft-vue build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
