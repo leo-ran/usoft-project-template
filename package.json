@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "usoft-vue serve",
+    "start": "usoft-vue start",
     "build": "usoft-vue build"
   },
   "dependencies": {
@@ -13,7 +13,7 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "vue-template-compiler": "^2.6.11"
+    "@usoft-fe/vue-cli": "^1.0.2"
   },
   "eslintConfig": {
     "root": true,
