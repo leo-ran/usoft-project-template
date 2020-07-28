@@ -8,7 +8,7 @@
     export default {
         data() {
             return {
-                title: '仪表盘'
+                title: '她她她她她她'
             }
         },
     }

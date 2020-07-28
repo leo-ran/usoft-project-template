@@ -16,10 +16,15 @@ Vue.use(VueRouter)
   },
   {
     path: '/admin',
-    name: 'Admin',
+    name: '导航三',
     component: () => import(/* webpackChunkName: "admin" */ '../layouts/AdminLayout'),
     redirect: '/dashboard/index',
     children: [
+      {
+        path: '/main',
+        name: "主页",
+        component: () => import(/* webpackChunkName: "dashboard" */ '../layouts/main'),
+      },
       {
         path: '/dashboard/index',
         name: "Dashboard",
