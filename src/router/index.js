@@ -12,7 +12,7 @@ Vue.use(VueRouter)
   {
     path: '/login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "login" */ '../pages/Login')
+    component: () => import(/* webpackChunkName: "login" */ '../pages/login')
   },
   {
     path: '/admin',
@@ -20,11 +20,6 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "admin" */ '../layouts/AdminLayout'),
     redirect: '/dashboard/index',
     children: [
-      {
-        path: '/main',
-        name: "主页",
-        component: () => import(/* webpackChunkName: "dashboard" */ '../layouts/main'),
-      },
       {
         path: '/dashboard/index',
         name: "Dashboard",
@@ -35,7 +30,7 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   routes
 })
 
