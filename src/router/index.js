@@ -18,10 +18,10 @@ Vue.use(VueRouter)
     path: '/admin',
     name: '导航三',
     component: () => import(/* webpackChunkName: "admin" */ '../layouts/AdminLayout'),
-    redirect: '/dashboard/index',
+    redirect: '/admin/dashboard/index',
     children: [
       {
-        path: '/dashboard/index',
+        path: 'dashboard/index',
         name: "Dashboard",
         component: () => import(/* webpackChunkName: "dashboard" */ '../pages/admin/dashboard'),
       }
@@ -30,7 +30,7 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   routes
 })
 

@@ -3,7 +3,7 @@
 		<el-col :span="24" class="header">
 			<el-col :span="10" class="logo" :class="collapsed?'logo-collapse-width aa':'logo-width aa'">
 				{{collapsed?"":sysName}}
-				<img :src="this.collapsedImg" v-show="collapsed" />
+				<img src="../assets/logo.png" v-show="collapsed" />
 			</el-col>
 			<el-col :span="10">
 				<div class="tools" @click.prevent="collapse">
