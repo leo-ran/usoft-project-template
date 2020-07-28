@@ -1140,10 +1140,10 @@
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
 
-"@usoft-fe/vue-cli@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@usoft-fe/vue-cli/-/vue-cli-1.0.7.tgz#423ad4e3c621ddb65fd9f3f43ac01f945042f0fd"
-  integrity sha512-nLGc7EXvwtDzPxb2yZcgbVgyf7SyLat8OS5qmzO55wD4xk7qE1/3k7jyV6Fm5U+4Z3hLku90jmkIbUnuXDdg1A==
+"@usoft-fe/vue-cli@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@usoft-fe/vue-cli/-/vue-cli-1.0.10.tgz#5dd47793998e1adf97ecea8113b8171f689dfeee"
+  integrity sha512-m/hFvmQU0HL9QOjCIGBeZ09+GJWu67dZPtu2va0gzrWM6NDyTd2X2zSybh2kIAQbzSURx0l5hc9Vh7mk56JyIQ==
   dependencies:
     "@babel/core" "^7.10.5"
     "@babel/preset-env" "^7.10.4"
