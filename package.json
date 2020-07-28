@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "usoft-vue serve",
+    "start": "usoft-vue start",
     "build": "usoft-vue build"
   },
   "dependencies": {
