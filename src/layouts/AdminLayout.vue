@@ -155,8 +155,8 @@
 
 </script>
 
-<style scoped lang="less">
-	@import '@/assets/var.less';
+<style scoped lang="scss">
+	@import '@/assets/var.scss';
 
 	.aa {
 		transition: all .3s ease-in-out;
@@ -169,7 +169,7 @@
 		.header {
 			height: 60px;
 			line-height: 60px;
-			background: @color-primary;
+			background: $--color-primary;
 			color:#fff;
 			.userinfo {
 				text-align: right;

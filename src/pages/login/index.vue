@@ -50,7 +50,7 @@
   }
 </script>
 
-<style lang="less">
+<style lang="scss">
     .page-login {
         width: 100vw;
         height: 100vh;
